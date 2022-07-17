@@ -16,19 +16,44 @@ public class SpritePlayer : MonoBehaviour
         transform.LookAt(Camera.transform);
         ChangeAnimations();
     }
-   
-    
+
+
     void ChangeAnimations()
     {
-        if(Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
-            AnimatorPlayer.SetBool("Esquerda", true);
-            AnimatorPlayer.SetBool("Direita", false);
+             AnimatorPlayer.SetBool("Esquerda", true);
+             AnimatorPlayer.SetBool("Direita", false);
+            
+             AnimatorPlayer.SetBool("Up", false);
+             AnimatorPlayer.SetBool("Baixo", false);
         }
         if (Input.GetKey(KeyCode.D))
         {
             AnimatorPlayer.SetBool("Direita", true);
             AnimatorPlayer.SetBool("Esquerda", false);
+
+            AnimatorPlayer.SetBool("Up", false);
+            AnimatorPlayer.SetBool("Baixo", false);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            AnimatorPlayer.SetBool("Baixo", true);
+            AnimatorPlayer.SetBool("Up", false);
+
+            AnimatorPlayer.SetBool("Esquerda", false);
+            AnimatorPlayer.SetBool("Direita", false);
+        }
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            AnimatorPlayer.SetBool("Up", true);
+            AnimatorPlayer.SetBool("Baixo", false);
+           
+
+            AnimatorPlayer.SetBool("Esquerda", false);
+            AnimatorPlayer.SetBool("Direita", false);
+
         }
     }
 }
