@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public ParticleSystem Particles;
     Rigidbody _PLayerRigidbody;
     public float _PlayerSpeed;
     public float _DashPlayerForce;
@@ -51,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(Input.GetButtonDown("Jump") && Time.time > nextFire)
         {
+             Particles.Play();
              nextFire = Time.time + DelayDash;
             _PLayerRigidbody.AddForce(movementDirection * _DashPlayerForce, ForceMode.Impulse);
         }

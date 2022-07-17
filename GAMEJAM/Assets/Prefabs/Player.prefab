@@ -244,9 +244,9 @@ GameObject:
   - component: {fileID: 7303805393131438639}
   - component: {fileID: 7303805393131438638}
   - component: {fileID: 7303805393131438624}
-  - component: {fileID: 7303805393131438637}
   - component: {fileID: 1173703356060981086}
   - component: {fileID: 7303805393131438635}
+  - component: {fileID: -2398733861810597153}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -298,23 +298,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8400ccb50e1874f43a79549b9ba5fce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Particles: {fileID: 3690684323560196935, guid: c6590559ecd455b4ba5fd738b3d80fc3, type: 3}
   _PlayerSpeed: 4
   _DashPlayerForce: 5
+  DelayDash: 0.5
   _RotationSpeed: 1000
   _aimPlayer: {fileID: 7303805392979716505}
---- !u!135 &7303805393131438637
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7303805393131438634}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1173703356060981086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,6 +316,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b27c8617bf2db54fbdd77eed90e08a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Hearts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   HealthPLayer: 5
   PanelGameOver: {fileID: 0}
 --- !u!136 &7303805393131438635
@@ -338,6 +333,20 @@ CapsuleCollider:
   m_GameObject: {fileID: 7303805393131438634}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &-2398733861810597153
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7303805393131438634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.2
   m_Height: 0.7
