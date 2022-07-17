@@ -53,7 +53,7 @@ public class Enemy2 : MonoBehaviour
     }
     void MovementEnemy()
     {
-        rigidbodyEnemy.AddForce(-transform.forward * ForceJump,ForceMode.Impulse);
+        rigidbodyEnemy.AddForce(-transform.forward * ForceJump);
     }
     void Attack()
     {

@@ -7,7 +7,7 @@ public class Enemy1 : MonoBehaviour
     Transform PositionPlayer;
     Rigidbody rigidbodyEnemy;
     public int LifeEnemy;
-    public float SpeedEnemy, DashForce;
+    public float SpeedEnemy, DashForce, DistanceMinToDash = 6f;
     GameObject Player, SpawnDice;
     public float DelayTimeToDash = 0.5F;
     private float NextDash = 0.0F;
@@ -41,7 +41,7 @@ public class Enemy1 : MonoBehaviour
             transform.LookAt(PositionPlayer.transform);
             transform.Translate(Vector3.forward * SpeedEnemy * Time.deltaTime);
         }
-        if (Vector3.Distance(this.transform.position, Player.transform.position) <= 6f  && Time.time > NextDash)
+        if (Vector3.Distance(this.transform.position, Player.transform.position) <= DistanceMinToDash && Time.time > NextDash)
         { 
             NextDash = Time.time + DelayTimeToDash; 
             DashEnemy();

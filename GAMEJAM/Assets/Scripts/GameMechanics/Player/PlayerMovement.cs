@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Move()
     {
-       if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
+       if(Input.GetButton("Horizontal") || Input.GetButton("Vertical"))
         {
             FindObjectOfType<AudioManager>().Play("Walk");
         }
