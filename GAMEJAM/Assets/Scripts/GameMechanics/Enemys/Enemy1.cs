@@ -7,14 +7,16 @@ public class Enemy1 : MonoBehaviour
     
     Transform PositionPlayer;
     Rigidbody rigidbodyEnemy;
-    public int LifeEnemy;
+    public int LifeEnemy,DropRateHeart;
     public float SpeedEnemy, DashForce, DistanceMinToDash = 6f;
     GameObject Player, SpawnDice;
     public float DelayTimeToDash = 0.5F;
     private float NextDash = 0.0F;
     public bool FollowPlayer;
-    
+    public GameObject Health;
 
+    
+    
 
     private void Start()
     {
@@ -67,6 +69,17 @@ public class Enemy1 : MonoBehaviour
     }
     void DeathEnemy()
     {
+        
+        int number;
+        number = Random.Range(0, DropRateHeart);
+        switch(number)
+        {
+            case 1:
+              GameObject heart = Instantiate(Health, gameObject.transform);
+                heart.transform.parent = null;
+            break;
+        }   
+                
             Destroy(gameObject);
     }
     void DashEnemy()

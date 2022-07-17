@@ -114,6 +114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnBullet: {fileID: 8361109164752709729}
   Bullet: {fileID: 6188821180374899512, guid: aaa98e6cf1d646c469353af6bad58086, type: 3}
+  Health: {fileID: 6735753159795675195, guid: 497f9195046bf094c9cf6db2277947c4, type: 3}
+  DropRateHeart: 4
   DistanceToShoot: 12
   DistanceToEscape: 5
   ForceJump: 8

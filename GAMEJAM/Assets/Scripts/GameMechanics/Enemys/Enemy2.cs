@@ -5,7 +5,8 @@ using UnityEngine;
 public class Enemy2 : MonoBehaviour
 {
     GameObject Player;
-    public GameObject SpawnBullet, Bullet;
+    public GameObject SpawnBullet, Bullet, Health;
+    public int DropRateHeart;
     GameObject SpawnDice;
     public float DistanceToShoot, DistanceToEscape, ForceJump, LifeEnemy;
     bool StartFire;
@@ -64,6 +65,16 @@ public class Enemy2 : MonoBehaviour
     }
     void Death()
     {
+        int number;
+        number = Random.Range(0, DropRateHeart);
+        switch (number)
+        {
+            case 1:
+                GameObject heart = Instantiate(Health, gameObject.transform);
+                heart.transform.parent = null;
+                break;
+        }
+
         Destroy(gameObject);
     }
 }
