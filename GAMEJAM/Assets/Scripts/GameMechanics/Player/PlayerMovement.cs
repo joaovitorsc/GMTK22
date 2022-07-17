@@ -7,6 +7,10 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody _PLayerRigidbody;
     public float _PlayerSpeed;
     public float _DashPlayerForce;
+
+    public float DelayDash = 0.5F;
+    private float nextFire = 0.0F;
+
     public float _RotationSpeed;
     public GameObject _aimPlayer;
     private Vector3 movementDirection;
@@ -45,8 +49,9 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Dash()
     {
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && Time.time > nextFire)
         {
+             nextFire = Time.time + DelayDash;
             _PLayerRigidbody.AddForce(movementDirection * _DashPlayerForce, ForceMode.Impulse);
         }
     } 

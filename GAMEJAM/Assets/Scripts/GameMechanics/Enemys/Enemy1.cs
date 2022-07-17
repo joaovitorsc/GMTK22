@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy1 : MonoBehaviour
 {
+    
     Transform PositionPlayer;
     Rigidbody rigidbodyEnemy;
     public int LifeEnemy;
@@ -12,6 +13,8 @@ public class Enemy1 : MonoBehaviour
     public float DelayTimeToDash = 0.5F;
     private float NextDash = 0.0F;
     public bool FollowPlayer;
+    
+
 
     private void Start()
     {
@@ -36,6 +39,7 @@ public class Enemy1 : MonoBehaviour
     }
     void MovementEnemy()
     {
+        
         if (FollowPlayer)
         {
             transform.LookAt(PositionPlayer.transform);
@@ -69,4 +73,5 @@ public class Enemy1 : MonoBehaviour
     {
         rigidbodyEnemy.AddForce(transform.forward * DashForce, ForceMode.Impulse);
     }
+    
 }
