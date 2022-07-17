@@ -5,12 +5,13 @@ using UnityEngine;
 public class HealthPlayer : MonoBehaviour
 {
     public GameObject[] Hearts;
-
+    GameObject Player;
     public int HealthPLayer;
     public GameObject PanelGameOver;
 
     private void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         HealthPLayer = Hearts.Length;
     }
     private void Update()
@@ -18,6 +19,7 @@ public class HealthPlayer : MonoBehaviour
         if(HealthPLayer <=0)
         {
             PanelGameOver.SetActive(true);
+            Player.SetActive(false);
         }
     }
     private void OnTriggerEnter(Collider other)

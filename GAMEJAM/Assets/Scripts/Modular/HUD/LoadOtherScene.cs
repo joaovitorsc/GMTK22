@@ -10,6 +10,7 @@ namespace HUD
     {
         public void LoadScene(string SceneToLoad)
         {
+            Time.timeScale = 1f;
             SceneManager.LoadScene(SceneToLoad);
         }
     }
