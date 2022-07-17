@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class HealthPlayer : MonoBehaviour
 {
+    public GameObject[] Hearts;
+
     public int HealthPLayer;
     public GameObject PanelGameOver;
 
+    private void Start()
+    {
+        HealthPLayer = Hearts.Length;
+    }
     private void Update()
     {
         if(HealthPLayer <=0)
@@ -17,11 +23,18 @@ public class HealthPlayer : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Enemy" || other.tag == "EnemyBullet")
+        if (other.tag == "Enemy")
         {
-            Debug.Log("Dano");
-            FindObjectOfType<AudioManager>().Play("DamagePlayer");
             HealthPLayer--;
+            Destroy(Hearts[HealthPLayer].gameObject);
+            FindObjectOfType<AudioManager>().Play("DamagePlayer");
+        }
+        if (other.tag == "EnemyBullet")
+        {
+            HealthPLayer--;
+            Destroy(Hearts[HealthPLayer].gameObject);
+            FindObjectOfType<AudioManager>().Play("DamagePlayer");
+            Destroy(other.gameObject);
         }
     }
 }
