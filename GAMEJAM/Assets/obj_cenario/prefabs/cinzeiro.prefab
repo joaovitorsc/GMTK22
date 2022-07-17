@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1275879311545474670}
   - component: {fileID: 2745804804906226123}
   - component: {fileID: 144108204340536577}
+  - component: {fileID: 5955682513018356334}
   m_Layer: 0
   m_Name: cinzeiro
   m_TagString: Untagged
@@ -82,3 +83,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5955682513018356334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945279979893834964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9210123, y: 0.16021073, z: 0.9210123}
+  m_Center: {x: -0.000000029802322, y: -0.019767463, z: -0.000000059604645}

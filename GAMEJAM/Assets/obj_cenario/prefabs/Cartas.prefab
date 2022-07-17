@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6024891527988700586}
   - component: {fileID: 3876085219153969239}
   - component: {fileID: 8365076966048322496}
+  - component: {fileID: 8201218897998950030}
   m_Layer: 0
   m_Name: carta.011
   m_TagString: Untagged
@@ -82,6 +83,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8201218897998950030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327932619449256206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &1114652783498973023
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,6 +107,7 @@ GameObject:
   - component: {fileID: 6332736173932802770}
   - component: {fileID: 2547059154333931998}
   - component: {fileID: 8140769050116121919}
+  - component: {fileID: 4255144845392549894}
   m_Layer: 0
   m_Name: carta
   m_TagString: Untagged
@@ -164,6 +179,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4255144845392549894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114652783498973023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &2028891077472714169
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +245,7 @@ GameObject:
   - component: {fileID: 4522201475801935797}
   - component: {fileID: 8629500964857753569}
   - component: {fileID: 956694958823770249}
+  - component: {fileID: 5157438462676071208}
   m_Layer: 0
   m_Name: carta.002
   m_TagString: Untagged
@@ -288,6 +317,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5157438462676071208
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2150706837025155681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.00260592, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028224, z: 0}
 --- !u!1 &2169922264805633998
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +341,7 @@ GameObject:
   - component: {fileID: 3106226561648420072}
   - component: {fileID: 7985308563224654890}
   - component: {fileID: 1502743783182191088}
+  - component: {fileID: 761075811341707677}
   m_Layer: 0
   m_Name: carta.003
   m_TagString: Untagged
@@ -370,6 +413,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &761075811341707677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2169922264805633998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.00260592, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028224, z: 0}
 --- !u!1 &3152268765998427202
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +437,7 @@ GameObject:
   - component: {fileID: 2505931034113068008}
   - component: {fileID: 6767615861656217782}
   - component: {fileID: 5669569685351571405}
+  - component: {fileID: 5563508727490005634}
   m_Layer: 0
   m_Name: carta.007
   m_TagString: Untagged
@@ -452,6 +509,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5563508727490005634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3152268765998427202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026060357, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &5959934308623266032
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +533,7 @@ GameObject:
   - component: {fileID: 1738884883303912937}
   - component: {fileID: 5710782873249934884}
   - component: {fileID: 8605112825880928629}
+  - component: {fileID: 1025973547120286490}
   m_Layer: 0
   m_Name: carta.005
   m_TagString: Untagged
@@ -534,6 +605,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1025973547120286490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5959934308623266032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.00260592, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028224, z: 0}
 --- !u!1 &5984731553942377888
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,6 +629,7 @@ GameObject:
   - component: {fileID: 7389844431562655292}
   - component: {fileID: 8973717546636429732}
   - component: {fileID: 6088404022154730709}
+  - component: {fileID: 2728679426034455380}
   m_Layer: 0
   m_Name: carta.001
   m_TagString: Untagged
@@ -616,6 +701,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2728679426034455380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984731553942377888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026060357, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &7165041901295330058
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,6 +725,7 @@ GameObject:
   - component: {fileID: 1704606829994791377}
   - component: {fileID: 6386910270526912565}
   - component: {fileID: 6530371421119866009}
+  - component: {fileID: 8155388128220982336}
   m_Layer: 0
   m_Name: carta.006
   m_TagString: Untagged
@@ -698,6 +797,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8155388128220982336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7165041901295330058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &7500479900611191410
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +821,7 @@ GameObject:
   - component: {fileID: 8602242989622578186}
   - component: {fileID: 8831202399609535337}
   - component: {fileID: 9036433949445151685}
+  - component: {fileID: 6223916320637174842}
   m_Layer: 0
   m_Name: carta.004
   m_TagString: Untagged
@@ -780,6 +893,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6223916320637174842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7500479900611191410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &8168527012317487414
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +917,7 @@ GameObject:
   - component: {fileID: 576324866618662697}
   - component: {fileID: 7479732261488216984}
   - component: {fileID: 1478548136861495904}
+  - component: {fileID: 7058108777431346779}
   m_Layer: 0
   m_Name: carta.008
   m_TagString: Untagged
@@ -862,6 +989,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7058108777431346779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8168527012317487414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}
 --- !u!1 &8769792315307440186
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +1013,7 @@ GameObject:
   - component: {fileID: 8251636804629306939}
   - component: {fileID: 7247165773187896068}
   - component: {fileID: 485457247052907991}
+  - component: {fileID: 6561701937704868457}
   m_Layer: 0
   m_Name: carta.010
   m_TagString: Untagged
@@ -944,6 +1085,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6561701937704868457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769792315307440186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026061216, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028224, z: 0}
 --- !u!1 &9101242516640978937
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +1109,7 @@ GameObject:
   - component: {fileID: 8656938541567772177}
   - component: {fileID: 3199874964531396496}
   - component: {fileID: 6238077452990528895}
+  - component: {fileID: 4748421081000477364}
   m_Layer: 0
   m_Name: carta.009
   m_TagString: Untagged
@@ -1026,3 +1181,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4748421081000477364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9101242516640978937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.48760134, y: 0.0026058033, z: 0.73539567}
+  m_Center: {x: 0, y: 0.0013028223, z: 0}

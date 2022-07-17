@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 790072416139953160}
   - component: {fileID: 1783820718502699515}
   - component: {fileID: 3618006314237262343}
+  - component: {fileID: 8069622793468356336}
   m_Layer: 0
   m_Name: dado
   m_TagString: Untagged
@@ -115,6 +116,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8069622793468356336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133772117706297107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.117927626, y: 0.11792755, z: 0.117927626}
+  m_Center: {x: 0.008236112, y: -0.002594199, z: 0.013222197}
 --- !u!1 &2973080974996243821
 GameObject:
   m_ObjectHideFlags: 0
@@ -126,6 +140,7 @@ GameObject:
   - component: {fileID: 8926825289684156554}
   - component: {fileID: 6725403748914588730}
   - component: {fileID: 1011359464022713738}
+  - component: {fileID: 6981710029368920717}
   m_Layer: 0
   m_Name: dado.002
   m_TagString: Untagged
@@ -197,6 +212,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6981710029368920717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2973080974996243821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.117927626, y: 0.11792755, z: 0.117927626}
+  m_Center: {x: 0.008236112, y: -0.002594199, z: 0.013222197}
 --- !u!1 &5578218229976217273
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +236,7 @@ GameObject:
   - component: {fileID: 6610096388170178671}
   - component: {fileID: 3233280260758502926}
   - component: {fileID: 883469201458475282}
+  - component: {fileID: 685963962472725489}
   m_Layer: 0
   m_Name: dado.001
   m_TagString: Untagged
@@ -279,3 +308,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &685963962472725489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578218229976217273}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.117927626, y: 0.11792755, z: 0.117927626}
+  m_Center: {x: 0.008236112, y: -0.002594199, z: 0.013222197}

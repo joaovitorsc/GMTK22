@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2547513377766816199}
   - component: {fileID: 1510199553936569954}
   - component: {fileID: 3679926020074848936}
+  - component: {fileID: 3809250635448119848}
   m_Layer: 0
   m_Name: taca
   m_TagString: Untagged
@@ -82,3 +83,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3809250635448119848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2887165011340878717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.38695717, y: 1.328443, z: 0.3869571}
+  m_Center: {x: 0.00000021606684, y: 0.65771616, z: -0.000000052154064}

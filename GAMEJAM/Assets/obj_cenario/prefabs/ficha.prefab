@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3488245571121453100}
   - component: {fileID: 560530240955815817}
   - component: {fileID: 2315852967906501443}
+  - component: {fileID: 5887765596075404104}
   m_Layer: 0
   m_Name: ficha
   m_TagString: Untagged
@@ -82,3 +83,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5887765596075404104
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261368905390768790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43266684, y: 0.005860948, z: 0.43266684}
+  m_Center: {x: 0, y: -0.0082553355, z: 0}
