@@ -53,6 +53,7 @@ public class Enemy1 : MonoBehaviour
     {
         if(other.tag == "Dice")
         {
+            FindObjectOfType<AudioManager>().Play("EnemyHurt");
             Destroy(other.gameObject);
             LifeEnemy -= SpawnDice.GetComponent<Attack>().DamageDice;
             Debug.Log("Colidiu");

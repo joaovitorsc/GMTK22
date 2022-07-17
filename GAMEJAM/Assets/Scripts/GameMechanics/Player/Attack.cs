@@ -26,8 +26,10 @@ public class Attack : MonoBehaviour
     }
     void AttackDice()
     {
+       
         if (Input.GetMouseButtonDown(0) && Time.time > nextFire)
         {
+            FindObjectOfType<AudioManager>().Play("AttackPlayer");
             nextFire = Time.time + fireRate;
             Instantiate(Dice, this.transform.position, this.transform.rotation);
            

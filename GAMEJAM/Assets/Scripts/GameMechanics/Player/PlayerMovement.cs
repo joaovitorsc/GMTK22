@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float _RotationSpeed;
     public GameObject _aimPlayer;
     private Vector3 movementDirection;
+    bool Walking;
 
     private void Start()
     {
@@ -22,13 +23,12 @@ public class PlayerMovement : MonoBehaviour
     }
     public void Move()
     {
+       if(Input.GetButtonDown("Horizontal") || Input.GetButtonDown("Vertical"))
+        {
+            FindObjectOfType<AudioManager>().Play("Walk");
+        }
         float _movementHorizontal = Input.GetAxis("Horizontal");
-       
-        //transform.position += new Vector3(_movementHorizontal, 0, 0) * Time.deltaTime * _PlayerSpeed;   
-        
         float _movementVertical = Input.GetAxis("Vertical");
-       // transform.position += new Vector3(0, 0, _movementVertical) * Time.deltaTime * _PlayerSpeed;
-
         movementDirection = new Vector3(_movementHorizontal, 0, _movementVertical);
         movementDirection.Normalize();
 

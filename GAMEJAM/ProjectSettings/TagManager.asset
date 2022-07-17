@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SpawnDice
   - Dice
+  - Enemy
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
