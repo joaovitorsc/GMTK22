@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4663562b1f1e5c4d92f0884bd4a2d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LifeEnemy: 50
+  LifeEnemy: 3
   SpeedEnemy: 1
   DashForce: 10
-  DelayTimeToDash: 3
+  DistanceMinToDash: 6
+  DelayTimeToDash: 5
   FollowPlayer: 0

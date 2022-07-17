@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8361109163624345075}
   - component: {fileID: 8361109163624345076}
   m_Layer: 0
-  m_Name: Enemy2 1
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,10 +114,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnBullet: {fileID: 8361109164752709729}
   Bullet: {fileID: 6188821180374899512, guid: aaa98e6cf1d646c469353af6bad58086, type: 3}
-  DistanceToShoot: 9
+  DistanceToShoot: 12
   DistanceToEscape: 5
   ForceJump: 8
-  LifeEnemy: 20
+  LifeEnemy: 6
   DelayToShoot: 1
 --- !u!54 &8361109163624345076
 Rigidbody:
