@@ -14,6 +14,7 @@ public class Enemy1 : MonoBehaviour
     private float NextDash = 0.0F;
     public bool FollowPlayer;
     public GameObject Health;
+    public Animator SpriteAnimation;
 
     
     
@@ -49,7 +50,13 @@ public class Enemy1 : MonoBehaviour
         }
         if (Vector3.Distance(this.transform.position, Player.transform.position) <= DistanceMinToDash && Time.time > NextDash)
         { 
-            NextDash = Time.time + DelayTimeToDash; 
+            NextDash = Time.time + DelayTimeToDash;
+            SpriteAnimation.SetBool("Attack", true);
+            SpriteAnimation.SetBool("Up", false);
+            SpriteAnimation.SetBool("Direita", false);
+            SpriteAnimation.SetBool("Esquerda", false);
+            SpriteAnimation.SetBool("Idle", false);
+            SpriteAnimation.SetBool("Baixo", false);
             DashEnemy();
         }
 
@@ -85,6 +92,7 @@ public class Enemy1 : MonoBehaviour
     void DashEnemy()
     {
         rigidbodyEnemy.AddForce(transform.forward * DashForce, ForceMode.Impulse);
+
     }
     
 }

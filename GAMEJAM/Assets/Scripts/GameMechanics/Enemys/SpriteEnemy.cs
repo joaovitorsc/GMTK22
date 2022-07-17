@@ -15,6 +15,8 @@ public class SpriteEnemy : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         EnemyAnimator = gameObject.GetComponent<Animator>();
         Enemy = gameObject.GetComponentInParent<Enemy1>();
+        
+        EnemyAnimator.SetBool("Idle", true);
     }
     private void Update()
     {
@@ -32,6 +34,7 @@ public class SpriteEnemy : MonoBehaviour
 
                 EnemyAnimator.SetBool("Up", false);
                 EnemyAnimator.SetBool("Baixo", false);
+                EnemyAnimator.SetBool("Idle", false);
             }
             if (Player.transform.position.x >= transform.parent.position.x && Player.transform.position.z >= transform.parent.position.z - 10f)
             {
@@ -40,6 +43,7 @@ public class SpriteEnemy : MonoBehaviour
 
                 EnemyAnimator.SetBool("Up", false);
                 EnemyAnimator.SetBool("Baixo", false);
+                EnemyAnimator.SetBool("Idle", false);
             }
             
             if (Player.transform.position.z <= transform.parent.position.z && Player.transform.position.x <= transform.parent.position.x + 10f)
@@ -49,6 +53,7 @@ public class SpriteEnemy : MonoBehaviour
 
                 EnemyAnimator.SetBool("Esquerda", false);
                 EnemyAnimator.SetBool("Direita", false);
+                EnemyAnimator.SetBool("Idle", false);
             }
             if (Player.transform.position.z >= transform.parent.position.z && Player.transform.position.x >= transform.parent.position.x + 10f)
             {
@@ -58,6 +63,7 @@ public class SpriteEnemy : MonoBehaviour
 
                 EnemyAnimator.SetBool("Esquerda", false);
                 EnemyAnimator.SetBool("Direita", false);
+                EnemyAnimator.SetBool("Idle", false);
             }
 
         }
