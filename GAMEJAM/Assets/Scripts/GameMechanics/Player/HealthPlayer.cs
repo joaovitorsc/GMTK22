@@ -18,7 +18,6 @@ public class HealthPlayer : MonoBehaviour
         if(HealthPLayer <=0)
         {
             PanelGameOver.SetActive(true);
-            Time.timeScale = 0f;
         }
     }
     private void OnTriggerEnter(Collider other)
